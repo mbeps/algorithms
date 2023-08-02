@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "algorithms"
+version = "0.1.0"
+description = "Notebook containing various algorithms, visualisations, explanations and comparisons"
+authors = ["Maruf Bepary <bepary71@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
